@@ -1,0 +1,17 @@
+.Rhistory
+.RData
+.Ruserdata
+.Rproj.user/
+.DS_Store
+Thumbs.db
+*.bak
+*.part
+*.tmp
+*.temp
+~$*
+data/raw/*
+!data/raw/README.md
+data/mapping/*
+!data/mapping/README.md
+data/pathways/*
+!data/pathways/README.md

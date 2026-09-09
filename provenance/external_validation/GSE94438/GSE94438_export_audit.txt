@@ -1,0 +1,216 @@
+GSE94438 curatedTBData export audit
+
+Object class:
+[1] "MultiAssayExperiment"
+attr(,"package")
+[1] "MultiAssayExperiment"
+
+Available experiments:
+[1] "assay_curated"        "assay_reprocess_hg19" "assay_reprocess_hg38"
+
+Expression dimensions:
+[1] 15427   418
+
+Metadata dimensions:
+[1] 418  26
+
+Metadata columns:
+ [1] "Age"                     "Gender"                 
+ [3] "Ethnicity"               "TBStatus"               
+ [5] "GeographicalRegion"      "BcgVaccinated"          
+ [7] "BirthRegion"             "TST"                    
+ [9] "Tissue"                  "HIVStatus"              
+[11] "MeasurementTime"         "PatientID"              
+[13] "PneumoniaStatus"         "exposure_latent"        
+[15] "index_case_disease_site" "smear_of_index_case"    
+[17] "modal_x_ray_grade"       "SputumSmearStatus"      
+[19] "sputum_culture"          "bal_smear"              
+[21] "bal_culture"             "isolate_sensitivity"    
+[23] "Code"                    "TimeFromExposure"       
+[25] "TimeToTB"                "Progression"            
+
+First six metadata rows:
+           Age Gender Ethnicity TBStatus GeographicalRegion BcgVaccinated
+GSM2475317  21 Female        NA      PTB         The Gambia            NA
+GSM2475318  26 Female        NA      PTB         The Gambia            NA
+GSM2475319  20 Female        NA  Control         The Gambia            NA
+GSM2475320  21 Female        NA  Control         The Gambia            NA
+GSM2475321  20 Female        NA  Control         The Gambia            NA
+GSM2475322  20 Female        NA  Control         The Gambia            NA
+           BirthRegion TST      Tissue HIVStatus MeasurementTime PatientID
+GSM2475317          NA  NA Whole Blood        NA              NA   08/G606
+GSM2475318          NA  NA Whole Blood        NA              NA   08/G433
+GSM2475319          NA  NA Whole Blood        NA              NA   07/G277
+GSM2475320          NA  NA Whole Blood        NA              NA   08/G810
+GSM2475321          NA  NA Whole Blood        NA              NA   08/G715
+GSM2475322          NA  NA Whole Blood        NA              NA   08/G596
+           PneumoniaStatus exposure_latent index_case_disease_site
+GSM2475317              NA              NA                      NA
+GSM2475318              NA              NA                      NA
+GSM2475319              NA              NA                      NA
+GSM2475320              NA              NA                      NA
+GSM2475321              NA              NA                      NA
+GSM2475322              NA              NA                      NA
+           smear_of_index_case modal_x_ray_grade SputumSmearStatus
+GSM2475317                  NA                NA                NA
+GSM2475318                  NA                NA                NA
+GSM2475319                  NA                NA                NA
+GSM2475320                  NA                NA                NA
+GSM2475321                  NA                NA                NA
+GSM2475322                  NA                NA                NA
+           sputum_culture bal_smear bal_culture isolate_sensitivity Code
+GSM2475317             NA        NA          NA                  NA  579
+GSM2475318             NA        NA          NA                  NA  567
+GSM2475319             NA        NA          NA                  NA  544
+GSM2475320             NA        NA          NA                  NA  582
+GSM2475321             NA        NA          NA                  NA  527
+GSM2475322             NA        NA          NA                  NA  521
+           TimeFromExposure    TimeToTB Progression
+GSM2475317       6 month(s) 22 month(s)    Positive
+GSM2475318      18 month(s) 24 month(s)    Positive
+GSM2475319       0 month(s)        <NA>    Negative
+GSM2475320       6 month(s)        <NA>    Negative
+GSM2475321       6 month(s)        <NA>    Negative
+GSM2475322       6 month(s)        <NA>    Negative
+
+Unique values by metadata variable:
+
+--- Age ---
+ [1] "21" "26" "20" "22" "23" "28" "35" "29" "19" "25" "17" "16" "38" "39" "40"
+[16] "32" "18" "30" "36" "45" "15" "37" "47" "48" "44" "60" "51" "55" "53" "24"
+[31] "27" "52" "31" "57" "56" "8"  "12" "42" "49" "46"
+
+--- Gender ---
+[1] "Female" "Male"  
+
+--- Ethnicity ---
+[1] NA
+
+--- TBStatus ---
+[1] "PTB"     "Control" NA       
+
+--- GeographicalRegion ---
+[1] "The Gambia"   "South Africa" "Ethiopia"     NA            
+
+--- BcgVaccinated ---
+[1] NA
+
+--- BirthRegion ---
+[1] NA
+
+--- TST ---
+[1] NA
+
+--- Tissue ---
+[1] "Whole Blood"
+
+--- HIVStatus ---
+[1] NA
+
+--- MeasurementTime ---
+[1] NA
+
+--- PatientID ---
+ [1] "08/G606" "08/G433" "07/G277" "08/G810" "08/G715" "08/G596" "10/G407"
+ [8] "09/G390" "09/G377" "08/G797" "08/G324" "08/G893" "09/G258" "09/G196"
+[15] "08/G814" "07/G328" "10/G369" "08/G434" "09/G187" "07/G274" "09/G431"
+[22] "10/G261" "09/G449" "09/G450" "09/G112" "09/G113" "09/G384" "09/G280"
+[29] "09/G143" "09/G169" "09/G162" "08/G372" "09/G106" "09/G455" "08/G196"
+[36] "07/G368" "08/G131" "08/G782" "08/G800" "08/G788"
+
+--- PneumoniaStatus ---
+[1] NA
+
+--- exposure_latent ---
+[1] NA
+
+--- index_case_disease_site ---
+[1] NA
+
+--- smear_of_index_case ---
+[1] NA
+
+--- modal_x_ray_grade ---
+[1] NA
+
+--- SputumSmearStatus ---
+[1] NA
+
+--- sputum_culture ---
+[1] NA
+
+--- bal_smear ---
+[1] NA
+
+--- bal_culture ---
+[1] NA
+
+--- isolate_sensitivity ---
+[1] NA
+
+--- Code ---
+ [1] "579" "567" "544" "582" "527" "521" "655" "663" "660" "571" "568" "565"
+[13] "569" "566" "574" "575" "425" "572" "616" "570" "517" "539" "477" "294"
+[25] "480" "423" "496" "428" "626" "649" "652" "629" "634" "637" "295" "591"
+[37] "593" "624" "611" "577"
+
+--- TimeFromExposure ---
+[1] "6 month(s)"  "18 month(s)" "0 month(s)"  NA           
+
+--- TimeToTB ---
+ [1] "22 month(s)" "24 month(s)" NA            "7 month(s)"  "4 month(s)" 
+ [6] "11 month(s)" "3 month(s)"  "12 month(s)" "9 month(s)"  "8 month(s)" 
+[11] "10 month(s)" "14 month(s)" "5 month(s)"  "23 month(s)" "6 month(s)" 
+[16] "17 month(s)" "21 month(s)" "13 month(s)" "19 month(s)" "18 month(s)"
+[21] "15 month(s)"
+
+--- Progression ---
+[1] "Positive" "Negative" NA        
+
+Session information:
+R version 4.5.3 (2026-03-11)
+Platform: x86_64-conda-linux-gnu
+Running under: Ubuntu 24.04.3 LTS
+
+Matrix products: default
+BLAS/LAPACK: /home/rmaghembe/miniconda3/envs/tb_validation_r/lib/libopenblasp-r0.3.33.so;  LAPACK version 3.12.0
+
+locale:
+ [1] LC_CTYPE=C.UTF-8       LC_NUMERIC=C           LC_TIME=C.UTF-8       
+ [4] LC_COLLATE=C.UTF-8     LC_MONETARY=C.UTF-8    LC_MESSAGES=C.UTF-8   
+ [7] LC_PAPER=C.UTF-8       LC_NAME=C              LC_ADDRESS=C          
+[10] LC_TELEPHONE=C         LC_MEASUREMENT=C.UTF-8 LC_IDENTIFICATION=C   
+
+time zone: Africa/Nairobi
+tzcode source: system (glibc)
+
+attached base packages:
+[1] stats4    stats     graphics  grDevices utils     datasets  methods  
+[8] base     
+
+other attached packages:
+ [1] MultiAssayExperiment_1.36.1 SummarizedExperiment_1.40.0
+ [3] Biobase_2.70.0              GenomicRanges_1.62.1       
+ [5] Seqinfo_1.0.0               IRanges_2.44.0             
+ [7] S4Vectors_0.48.0            BiocGenerics_0.56.0        
+ [9] generics_0.1.4              MatrixGenerics_1.22.0      
+[11] matrixStats_1.5.0           curatedTBData_2.6.0        
+
+loaded via a namespace (and not attached):
+ [1] rappdirs_0.3.4       SparseArray_1.10.8   BiocVersion_3.22.0  
+ [4] lattice_0.22-9       RSQLite_3.53.1       magrittr_2.0.5      
+ [7] grid_4.5.3           fastmap_1.2.0        blob_1.3.0          
+[10] Matrix_1.7-5         AnnotationHub_4.0.0  AnnotationDbi_1.72.0
+[13] DBI_1.3.0            BiocManager_1.30.27  httr_1.4.8          
+[16] purrr_1.2.2          Biostrings_2.78.0    httr2_1.2.2         
+[19] abind_1.4-8          cli_3.6.6            rlang_1.2.0         
+[22] crayon_1.5.3         dbplyr_2.5.2         XVector_0.50.0      
+[25] bit64_4.8.2          withr_3.0.2          DelayedArray_0.36.0 
+[28] cachem_1.1.0         yaml_2.3.12          BiocBaseUtils_1.12.0
+[31] S4Arrays_1.10.1      tools_4.5.3          memoise_2.0.1       
+[34] dplyr_1.2.1          filelock_1.0.3       ExperimentHub_3.0.0 
+[37] curl_7.1.0           vctrs_0.7.3          R6_2.6.1            
+[40] png_0.1-9            BiocFileCache_3.0.0  lifecycle_1.0.5     
+[43] KEGGREST_1.50.0      bit_4.6.0            pkgconfig_2.0.3     
+[46] pillar_1.11.1        glue_1.8.1           tibble_3.3.1        
+[49] tidyselect_1.2.1     compiler_4.5.3      

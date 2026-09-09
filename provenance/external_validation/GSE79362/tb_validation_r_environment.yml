@@ -1,0 +1,15 @@
+name: tb_validation_r
+channels:
+  - conda-forge
+  - bioconda
+  - defaults
+dependencies:
+  - r-base=4.5
+  - r-biocmanager
+  - r-data.table
+  - r-remotes
+  - bioconductor-multiassayexperiment
+  - bioconductor-summarizedexperiment
+  - bioconductor-experimenthub
+  - bioconductor-curatedtbdata
+prefix: /home/rmaghembe/miniconda3/envs/tb_validation_r

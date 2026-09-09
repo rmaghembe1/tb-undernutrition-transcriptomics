@@ -1,0 +1,9 @@
+# Licensing
+
+This public release uses a dual-license structure.
+
+- **Code** in `scripts/`, the shell launchers, and other author-created software is licensed under the MIT License. See `LICENSE_CODE.txt`.
+- **Author-created documentation, figures, metadata, and derived research outputs** are licensed under the Creative Commons Attribution 4.0 International License (CC BY 4.0). See `LICENSE_CONTENT.md`.
+- **Third-party datasets, annotations, pathway resources, and other upstream materials are not relicensed by this repository.** Their original terms continue to apply. Large upstream resources are not redistributed and are identified in `provenance/UPSTREAM_RESOURCE_MANIFEST.tsv`.
+
+Where a file incorporates third-party material, the original third-party terms take precedence for that material.

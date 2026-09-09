@@ -1,0 +1,8 @@
+metric	value
+Common Reactome pathways	1274
+Pathway NES Spearman correlation	-0.390255087764231
+Pathway direction agreement	0.342229199372057
+Exact stable undernutrition pathways evaluated	241
+Exact stable pathways same direction	63
+Exact stable pathways opposite direction	178
+Opposite-direction stable pathways with activeTB FDR <0.05	117
