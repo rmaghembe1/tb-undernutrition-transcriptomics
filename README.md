@@ -1,5 +1,7 @@
 # TB undernutrition transcriptomics
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.22685970.svg)](https://doi.org/10.5281/zenodo.22685970)
+
 Reproducibility materials for the study:
 
 **Distinct immune-metabolic transcriptomic remodeling in severe undernutrition during latent tuberculosis infection fails to transport as a progression-risk program across independent cohorts**
@@ -16,4 +18,4 @@ Canonical confirmation:
 
 Supplementary Data S1 internal checksum verification: 47/47 PASS.
 
-Release status: local v1.0.0 staging only. No GitHub or Zenodo publication has yet occurred.
+Release status: v1.0.0 is publicly released on GitHub and archived by Zenodo. DOI: [10.5281/zenodo.22685970](https://doi.org/10.5281/zenodo.22685970).

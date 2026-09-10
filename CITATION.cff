@@ -3,7 +3,9 @@ message: "If you use this research compendium, please cite it using the metadata
 title: "Distinct immune-metabolic transcriptomic remodeling in severe undernutrition during latent tuberculosis infection fails to transport as a progression-risk program across independent cohorts"
 type: software
 version: 1.0.0
-date-released: 2026-09-09
+date-released: 2026-09-10
+doi: 10.5281/zenodo.22685970
+repository-code: "https://github.com/rmaghembe1/tb-undernutrition-transcriptomics"
 license: MIT
 authors:
   - family-names: "Maghembe"
