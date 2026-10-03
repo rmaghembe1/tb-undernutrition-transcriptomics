@@ -1,7 +1,7 @@
 {
-  "title": "Distinct immune-metabolic transcriptomic remodeling in severe undernutrition during latent tuberculosis infection fails to transport as a progression-risk program across independent cohorts",
+  "title": "Distinct transcriptional remodeling of immune and metabolic pathways in severe undernutrition during latent tuberculosis infection does not consistently predict tuberculosis progression across independent cohorts",
   "upload_type": "software",
-  "description": "Public reproducibility release containing canonical R analysis scripts, the frozen seven-module programme, exact R-confirmed derived outputs, five main figures, Supplementary Methods and Tables S1-S6, and Supplementary Data S1. Underlying transcriptomic source datasets remain available through GEO (GSE152218, GSE79362, and GSE94438/GC6).",
+  "description": "Public reproducibility release containing canonical analysis scripts, the frozen seven-module programme, exact R-confirmed derived outputs, five main figures, Supplementary Methods and Tables S1-S6, Supplementary Data S1, and the v1.1.0 GC6 overlap-robustness addendum. Underlying transcriptomic source datasets remain available through GEO (GSE152218, GSE79362, and GSE94438/GC6).",
   "creators": [
     {
       "name": "Maghembe, Reuben S.",
@@ -20,8 +20,16 @@
       "affiliation": "Department of Clinical Pharmacy and Pharmacology, School of Pharmacy, Muhimbili University of Health and Allied Sciences (MUHAS), Dar es Salaam, Tanzania"
     },
     {
+      "name": "Bahati, Samweli",
+      "affiliation": "Department of Omics and Computational Biology, AfroBiomics Co. Ltd., Bridge Street, Kivukoni, Dar es Salaam, Tanzania"
+    },
+    {
       "name": "Ngowi, Kennedy M.",
       "affiliation": "Kilimanjaro Clinical Research Institute (KCRI), Kilimanjaro Christian Medical Centre (KCMC), Moshi, Tanzania"
+    },
+    {
+      "name": "Nakiyingi, Lydia",
+      "affiliation": "Department of Medicine, School of Medicine, Makerere University College of Health Sciences, Kampala, Uganda; Makerere University Biomedical Research Centre, Makerere University College of Health Sciences, Kampala, Uganda; Infectious Diseases Institute, Makerere University College of Health Sciences, Kampala, Uganda"
     },
     {
       "name": "Null, Megan",
@@ -40,16 +48,16 @@
       "affiliation": "Section of Infectious Diseases, Department of Medicine, Boston University Chobanian & Avedisian School of Medicine, Boston, Massachusetts, USA"
     },
     {
-      "name": "Syed, Sana",
-      "affiliation": "Department of Pediatrics, Duke University School of Medicine, Durham, North Carolina, USA; Duke Clinical Research Institute, Duke University, Durham, North Carolina, USA"
+      "name": "Heysell, Scott K.",
+      "affiliation": "Department of Medicine, Division of Infectious Diseases and International Health, University of Virginia School of Medicine, Charlottesville, Virginia, USA"
     },
     {
       "name": "Mpagama, Stellah George",
       "affiliation": "Kibong'oto Infectious Diseases Hospital (KIDH), Kilimanjaro, Tanzania"
     },
     {
-      "name": "Heysell, Scott K.",
-      "affiliation": "Department of Medicine, Division of Infectious Diseases and International Health, University of Virginia School of Medicine, Charlottesville, Virginia, USA"
+      "name": "Syed, Sana",
+      "affiliation": "Department of Pediatrics, Duke University School of Medicine, Durham, North Carolina, USA; Duke Clinical Research Institute, Duke University, Durham, North Carolina, USA"
     }
   ],
   "keywords": [
@@ -65,6 +73,6 @@
     "reproducibility"
   ],
   "access_right": "open",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "language": "eng"
 }

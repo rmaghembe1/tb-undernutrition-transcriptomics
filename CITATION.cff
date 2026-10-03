@@ -1,10 +1,8 @@
 cff-version: 1.2.0
 message: "If you use this research compendium, please cite it using the metadata below."
-title: "Distinct immune-metabolic transcriptomic remodeling in severe undernutrition during latent tuberculosis infection fails to transport as a progression-risk program across independent cohorts"
+title: "Distinct transcriptional remodeling of immune and metabolic pathways in severe undernutrition during latent tuberculosis infection does not consistently predict tuberculosis progression across independent cohorts"
 type: software
-version: 1.0.0
-date-released: 2026-09-10
-doi: 10.5281/zenodo.22685970
+version: 1.1.0
 repository-code: "https://github.com/rmaghembe1/tb-undernutrition-transcriptomics"
 license: MIT
 authors:
@@ -21,9 +19,16 @@ authors:
   - family-names: "Mutagonda"
     given-names: "Ritah Francis"
     affiliation: "Department of Clinical Pharmacy and Pharmacology, School of Pharmacy, Muhimbili University of Health and Allied Sciences (MUHAS), Dar es Salaam, Tanzania"
+  - family-names: "Bahati"
+    given-names: "Samweli"
+    affiliation: "Department of Omics and Computational Biology, AfroBiomics Co. Ltd., Bridge Street, Kivukoni, Dar es Salaam, Tanzania"
+    email: "sambahati70@gmail.com"
   - family-names: "Ngowi"
     given-names: "Kennedy M."
     affiliation: "Kilimanjaro Clinical Research Institute (KCRI), Kilimanjaro Christian Medical Centre (KCMC), Moshi, Tanzania"
+  - family-names: "Nakiyingi"
+    given-names: "Lydia"
+    affiliation: "Department of Medicine, School of Medicine, Makerere University College of Health Sciences, Kampala, Uganda; Makerere University Biomedical Research Centre, Makerere University College of Health Sciences, Kampala, Uganda; Infectious Diseases Institute, Makerere University College of Health Sciences, Kampala, Uganda"
   - family-names: "Null"
     given-names: "Megan"
     affiliation: "Department of Medicine, Division of Infectious Diseases and International Health, University of Virginia School of Medicine, Charlottesville, Virginia, USA"
@@ -36,15 +41,15 @@ authors:
   - family-names: "Sinha"
     given-names: "Pranay"
     affiliation: "Section of Infectious Diseases, Department of Medicine, Boston University Chobanian & Avedisian School of Medicine, Boston, Massachusetts, USA"
-  - family-names: "Syed"
-    given-names: "Sana"
-    affiliation: "Department of Pediatrics, Duke University School of Medicine, Durham, North Carolina, USA; Duke Clinical Research Institute, Duke University, Durham, North Carolina, USA"
-  - family-names: "Mpagama"
-    given-names: "Stellah George"
-    affiliation: "Kibong'oto Infectious Diseases Hospital (KIDH), Kilimanjaro, Tanzania"
   - family-names: "Heysell"
     given-names: "Scott K."
     affiliation: "Department of Medicine, Division of Infectious Diseases and International Health, University of Virginia School of Medicine, Charlottesville, Virginia, USA"
+  - family-names: "Mpagama"
+    given-names: "Stellah George"
+    affiliation: "Kibong'oto Infectious Diseases Hospital (KIDH), Kilimanjaro, Tanzania"
+  - family-names: "Syed"
+    given-names: "Sana"
+    affiliation: "Department of Pediatrics, Duke University School of Medicine, Durham, North Carolina, USA; Duke Clinical Research Institute, Duke University, Durham, North Carolina, USA"
 keywords:
   - tuberculosis
   - undernutrition
@@ -53,5 +58,7 @@ keywords:
   - RNA sequencing
   - Reactome
   - immune metabolism
+  - progression
+  - transportability
   - reproducibility
-abstract: "Reproducibility release containing the canonical analysis scripts, frozen seven-module programme, exact R-confirmed derived outputs, figures, supplementary methods and tables, and Supplementary Data S1 supporting the study."
+abstract: "Reproducibility release containing the canonical analysis scripts, frozen seven-module programme, exact R-confirmed derived outputs, figures, supplementary methods and tables, Supplementary Data S1, and the v1.1.0 GC6 overlap-robustness addendum."

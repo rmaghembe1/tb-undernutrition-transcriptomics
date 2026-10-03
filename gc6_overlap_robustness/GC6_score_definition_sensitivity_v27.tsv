@@ -1,0 +1,13 @@
+Analysis	Score definition	Cases	Controls/paired	Median difference or delta	Unadjusted P	AUC	Adjusted OR per SD	Adjusted P
+Month 0 baseline: any future TB progression	CURRENT_4_MODULE	64	208	-0.0524	0.02199	0.405	0.711	0.02178
+Month 0 baseline: any future TB progression	SHARED_GENE_4_MODULE	64	208	-0.0553	0.01988	0.404	0.713	0.02236
+Month 0 baseline: any future TB progression	STRICT_OVERLAP_3_MODULE	64	208	-0.0768	0.01508	0.399	0.696	0.01445
+Month 0 baseline: progression within 12 months	CURRENT_4_MODULE	38	208	-0.0683	0.03249	0.391	0.71	0.05884
+Month 0 baseline: progression within 12 months	SHARED_GENE_4_MODULE	38	208	-0.0743	0.03034	0.389	0.707	0.05454
+Month 0 baseline: progression within 12 months	STRICT_OVERLAP_3_MODULE	38	208	-0.0856	0.0331	0.391	0.708	0.05416
+Month 6 landmark: TB within next 12 months	CURRENT_4_MODULE	14	64	0.0393	0.5363	0.446	0.711	0.2851
+Month 6 landmark: TB within next 12 months	SHARED_GENE_4_MODULE	14	64	0.037	0.4309	0.432	0.682	0.2301
+Month 6 landmark: TB within next 12 months	STRICT_OVERLAP_3_MODULE	14	64	0.0101	0.3795	0.424	0.6	0.1176
+Paired prediagnostic	CURRENT_4_MODULE	20		-0.0977	0.2549			
+Paired prediagnostic	SHARED_GENE_4_MODULE	20		-0.1017	0.1978			
+Paired prediagnostic	STRICT_OVERLAP_3_MODULE	20		-0.1196	0.225			
