@@ -24,6 +24,5 @@ Supplementary Data S1 internal checksum verification: 47/47 PASS.
 Release lineage:
 
 - v1.0.0: original public reproducibility release, archived at DOI 10.5281/zenodo.22685970.
-- v1.1.0: successor update adding GC6 gene-identity robustness analyses and reconciling release metadata to the 14-author manuscript-v28 author list.
-
-The final v1.1.0 version DOI and release date will be inserted only after they are assigned or reserved for the successor release.
+- v1.1.0: publicly released on 2026-10-03, adding GC6 gene-identity robustness analyses and reconciling release metadata to the 14-author manuscript-v28 author list. Version DOI: 10.5281/zenodo.23119331.
+- All versions: Zenodo concept DOI 10.5281/zenodo.22685969.
